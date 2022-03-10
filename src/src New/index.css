@@ -23,6 +23,10 @@
     overflow: scroll;
 }
 .cardTitle{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -25px;
+    z-index: 1;
     background-color:#E0DDAA;
     padding: 20px;
     font-size: 22px;
@@ -91,4 +95,7 @@
 }
 .blank{
     height: 20px;
+}
+::-webkit-scrollbar{
+    display: none;
 }
